@@ -1,2 +1,2 @@
 # Reaction
-A chat in javascript php html css an java
+A chat in javascript html css and java
