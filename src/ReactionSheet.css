@@ -42,7 +42,15 @@ a {
     width:395px;
     border:1px solid #ACD8F0; }
   
-#submit { width: 60px; }
+#submit { width: 60px; 
+   color: white
+  font-weight: bold
+  font-size: 2rem
+  text-decoration: none
+  text-transform: uppercase
+  padding: 40px 90px
+  background-color: #7681b9
+}
   
 .error { color: #ff0000; }
   
