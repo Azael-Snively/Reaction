@@ -54,18 +54,46 @@ a {
      border: 2px solid #A6DBF0;
     }
   
- button{
-    
-   background: #A6DBF0;
-   border-radius: 5px;
-     border: 2px solid #A6DBF0;
-
-  }
   
-  buttton:hoover{
-    
-    
-  }
+  
+  .button{
+  position: relative;
+  background-color: #A6DBF0 ;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #000000;
+  padding: 10px;
+  width: 60px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #1B6988;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 1.5s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+  
 
 .error { color: #ff0000; }
   
