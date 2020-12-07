@@ -93,7 +93,13 @@ a {
   transition: 0s
 }
 
+  .button:hover{
+   background: #1B6988;
+   padding: 10px;
+  width: 75px;
   
+}
+
 
 .error { color: #ff0000; }
   
