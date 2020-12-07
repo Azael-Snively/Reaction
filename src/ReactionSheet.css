@@ -54,9 +54,17 @@ a {
      border: 2px solid #A6DBF0;
     }
   
-  button{
+ button{
     
-   background: #A6DBF0; 
+   background: #A6DBF0;
+   border-radius: 5px;
+     border: 2px solid #A6DBF0;
+
+  }
+  
+  buttton:hoover{
+    
+    
   }
 
 .error { color: #ff0000; }
