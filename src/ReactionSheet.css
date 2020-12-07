@@ -1,29 +1,67 @@
-body{
+body {
+    font: 12px arial;
+    color: #222;
+    text-align: center;
+    padding: 35px; 
+    }
   
+form, p, span {
+    margin: 0;
+    padding: 0; 
+    }
   
-  
-  
+input { 
+font: 12px arial; 
 }
+  
+a {
+    color: #FFFFFF;
+    text-decoration: none; 
+     }
+  
+    a:hover { text-decoration: underline; }
+  
+#wrapper, #loginform {
+    margin: 0 auto;
+    padding-bottom: 25px;
+    background: #309CC5;
+    width: 504px;
+    border: 1px solid #ACD8F0; 
+     border-radius: 20px;
+    }
+  
+#loginform { padding-top: 18px; }
+  
+    #loginform p { margin: 5px; }
+  
+#chatbox {
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    background: #A6DBF0;
+    height: 270px;
+    width: 430px;
+    border: 1px solid #A6DBF0;
+    overflow: auto;
+    border-radius: 15px;
+    }
+  
+#usermsg {
+    width: 395px;
+    background: #A6DBF0;
+     border-radius: 5px;
+     border: 2px solid #A6DBF0;
+    }
+  
+  button{
+    
+   background: #A6DBF0; 
+  }
 
-send{/** C'est le boutton envoyer**/
+.error { color: #ff0000; }
   
+#menu { padding: 12.5px 25px 12.5px 25px; }
   
-  
-  
-  
-}
-
-send:hoover{
-  
-  
-  
-  
-  
-  
-}
-
-txtarea{
-  
-  
-}
+.welcome { float: left; }
   
