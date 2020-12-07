@@ -47,6 +47,12 @@ a {
     border-radius: 15px;
     }
   
+#chatbox:hover{
+  background: #8AD0EB;  
+    
+    
+  }
+
 #usermsg {
     width: 395px;
     background: #A6DBF0;
@@ -54,7 +60,11 @@ a {
      border: 2px solid #A6DBF0;
     }
   
-  
+    #usermsg:hover{
+  background: #8AD0EB;  
+    
+    
+  }
   
   .button{
   position: relative;
