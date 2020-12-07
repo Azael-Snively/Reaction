@@ -1,24 +1,9 @@
-<html>
-  
-  
-  <head>
-    <meta charset="utf-8" />
-       
-    <link type="text/css" rel="stylesheet" href="ReactionSheet.css" /> 
-    
-    <title>Reaction Chat</title>
-    
-  </head>
-  
-  <body>
-  
-  <header>
-   
-    
-    <h1>Reaction Chat</h1>
-  
-    </header>
-
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Chat - Customer Module</title>
+<link type="text/css" rel="stylesheet" href="reactionsheet.css" />
+</head>
  
 <div id="wrapper">
   <div id="menu">
@@ -28,22 +13,18 @@
     </div>
      
     <div id="chatbox"></div>
-  
-  <button class"send"> ENvoyer le message </button>
-  
+     
     <form name="message" action="">
         <input name="usermsg" type="text" id="usermsg" size="63" />
-        <input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
+        <input name="submitmsg" type="button"  class="submitmsg" value="Send" />
     </form>
 </div>
-
-    
-    <footer>
-  
-  
-    </footer>
-  
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+<script type="text/javascript">
+// jQuery Document
+$(document).ready(function(){
  
-  </body>
-  
-  </html>
+});
+</script>
+</body>
+</html>
