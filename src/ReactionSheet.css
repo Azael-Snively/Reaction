@@ -102,7 +102,8 @@ font: 12px arial;
 }
 
 .button:hover{
-   background: #1B6988;
+   background: #090F80;
+   color: white;
    padding: 13px;
   width: 75px;
   
@@ -110,7 +111,7 @@ font: 12px arial;
 
 .button:after {
   content: "";
-  background: #CDECF8;
+ background: #5EB7FF;
   display: block;
   position: absolute;
   padding-top: 300%;
